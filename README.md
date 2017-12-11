@@ -7,7 +7,6 @@ Recolector R = Recolector.Instancia();
 .......
 R.Tabla = myTabla();
 
-```csharp
 //Class2
 Recolector R = Recolector.Instancia();
 R.tabla.DataSet = myDataSet();
