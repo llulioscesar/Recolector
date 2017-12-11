@@ -2,4 +2,13 @@
 Una forma de almacenar temporalmente datos y pasarlos entre clases
 
 ```csharp
-using 
+// Class1
+Recolector R = Recolector.Instancia();
+.......
+R.Tabla = myTabla();
+
+```csharp
+//Class2
+Recolector R = Recolector.Instancia();
+R.tabla.DataSet = myDataSet();
+
